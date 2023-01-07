@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-btn {
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 26px;
+    border: 0;
+    
+}
+
+/* banner section start */
+.banner-section {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px; 
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.section-description {
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 26px;
+    border: 0;
+    margin-left: 465px ;
+}
+
+.blank-section {
+    width: 800px;
+}
+
+.header-info {
+    width: 800px;
+    margin: 180px;
+}
+
+.banner {
+    display: flex;
+}
+/* banner section end */
+
+
+/* main section start */
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.failur-info {
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.previous-failing-list {
+    margin-top: 370px;
+    margin-left: 85px;
+}
+
+.failing-area-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.section-description-2 {
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+
+i {
+    color: green;
+    font-size: 20px;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 76px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.planning {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: 130px;
+}
+
+.plan {
+    margin-left: 85px;
+    text-align: center;
+}
+
+.plan img {
+    width: 92px;
+}
+
+.planning-heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.planning-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #737272;
+}
+
+.call-now-area {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.call-now-heading {
+    margin-left: 60px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 60px;
+    width: 400px;
+}
+
+.common-btn {
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    color: #F15B22;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+/* main section end */
+
+/* footer section start */
+
+footer {
+    margin-top: 130px;
+    width: 1600px;
+    background: #151414;
+    color: #FFFFFF;
+}
+
+.future-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.future img {
+    margin-left: 16px;
+}
+
+.footer-section {
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+}
+.subscribe, .future{
+    width: 570px;
+    padding: 120px;
+}
+
+.subs-heading {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    color: #FFFFFF;
+    width: 325px;
+    height: 55px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+}
+
+.subscribe input::placeholder {
+    font-size: 18px;
+}
+/* footer section end */
