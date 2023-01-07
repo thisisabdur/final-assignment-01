@@ -11,7 +11,7 @@ nav {
 
 .nav-title {
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 nav ul {
@@ -110,7 +110,7 @@ main {
     margin-bottom: 25px;
 }
 
-.section-description-2 {
+.section-description-2, .contact-area-description{
     line-height: 26px;
     color: #444343;
     margin-bottom: 30px;
@@ -195,6 +195,39 @@ i {
 }
 /* main section end */
 
+
+
+/* extra part added */
+
+.contact-area-added {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+
+}
+
+.contact-area-info {
+    width: 570px;
+}
+
+.contact-area-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.btn-together {
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 26px;
+    border: 0;
+}
 /* footer section start */
 
 footer {
